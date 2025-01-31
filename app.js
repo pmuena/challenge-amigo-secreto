@@ -2,16 +2,15 @@
 //Array de amigosSorteados infinita
 let amigos = [];
 
-function agregarAmigos() {
+function agregarAmigo() {
     let amigoSorteado = document.getElementById('amigo').value;
     console.log(amigoSorteado);
-    if (amigoSorteado = '') {
+    if (amigoSorteado == ''){
         alert('Por favor, inserte un nombre');
     }
     else {
-    amigos.push('' + amigoSorteado + '');
+    amigos.push('amigoSorteado');
     return;
-}
 }
 }
 
